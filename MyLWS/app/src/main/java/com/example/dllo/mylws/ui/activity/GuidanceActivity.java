@@ -1,16 +1,14 @@
 package com.example.dllo.mylws.ui.activity;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
 import com.example.dllo.mylws.R;
 
-public class MainActivity extends AbsBaseActivity {
-
-
+/**
+ * Created by dllo on 16/7/11.
+ */
+public class GuidanceActivity extends AbsBaseActivity {
     @Override
     protected int setLayout() {
-        return R.layout.activity_main;
+        return R.layout.activity_guidan;
     }
 
     @Override
